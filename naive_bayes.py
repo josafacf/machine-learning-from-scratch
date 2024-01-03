@@ -1,5 +1,4 @@
 # p(A|B) = p(B|A) * p(A) / p(B)
-# josafa_dev
 def calc(probability_b_given_a, probability_a, probability_b):
     probability_a_given_b = (probability_b_given_a * probability_a) / probability_b
     return probability_a_given_b
